@@ -91,6 +91,8 @@ h1, h2, h3, p {
     fill: #4BCEEC;
 }
 
+/* SUB HERO */
+
 #sub-hero-wrap {
     display: grid;
     grid-template-rows: auto auto;
@@ -112,4 +114,65 @@ h1, h2, h3, p {
     font-weight: 600;
     font-style: italic;
     font-size: 1.2rem;
+}
+
+#sube-hero-section {
+    margin-bottom: 8rem;
+}
+
+/* Teacher section */
+
+#teacher-section {
+    min-height: 100vh;
+}
+
+#teacher-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#picture-wrap {
+    /* background-color: #FEB47B; */
+}
+@media (max-width: 992px){
+ #picture-wrap {
+    grid-column: 1 / 3;
+    }
+}
+#bio-wrap {
+    background-color: rgb(13, 139, 13);
+}
+@media (max-width: 992px){
+    #bio-wrap {
+       grid-column: 1 / 3;
+    }
+}
+
+#teacher-pic{
+    display: block;
+    border-radius: 10px;
+    width: 330px;
+    height: auto;
+    margin: 3rem auto 0;
+}
+
+#jeong {
+    color: #FEB47B;
+    margin: 1.75rem 0 0.7rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: 0.1rem;
+
+}
+
+#summer {
+    margin-top: 0.2rem;
+    color: #4BCEEC;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
 }
