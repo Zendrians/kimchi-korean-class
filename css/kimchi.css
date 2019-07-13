@@ -260,6 +260,7 @@ h1, h2, h3, p {
     border-radius: 20px;
     border: 3px solid #FEB47B;
     margin-bottom: 3rem;
+    overflow: hidden;
 }
 @media (max-width: 992px){
     #service-grid div:last-child {
@@ -310,4 +311,26 @@ h1, h2, h3, p {
     #test-prep {
         grid-column: 2/6;
     }
+}
+
+.service-img {
+    width: 100px;
+    height: auto;
+    margin: 2rem auto 1.5rem;
+}
+
+.service-title{
+    text-align: center;
+    color: #FEB47B;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+    font-weight: 500;
+}
+
+.service-text {
+    padding: 0 1rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: #809CA2;
+    font-weight: 400;
 }
