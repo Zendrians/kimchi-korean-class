@@ -224,7 +224,7 @@ h1, h2, h3, p {
 
 .sep-kor {
     display: block;
-    margin: -3rem auto -3.5rem;
+    margin: -3rem auto -3.45rem;
 }
 
 
@@ -333,4 +333,39 @@ h1, h2, h3, p {
     text-align: center;
     color: #809CA2;
     font-weight: 400;
+}
+
+/* TESTIMONIALS */
+
+#testimonials-section {
+    min-height: 730px;
+}
+
+#testimonials-title-1 {
+    color: #858585;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0;
+    font-weight: 450;
+}
+
+#students {
+    color: #FEB47B;
+    font-weight: 600;
+}
+
+#testimonials-title-2 {
+    color: #A2A2A2;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+    font-weight: 200;
+    margin-top: -8px;
+}
+
+.sep-box {
+    width: 4rem;
+    height: 3px;
+    background-color: #4BCEEC;
+    margin-top: 2.5rem;
 }
