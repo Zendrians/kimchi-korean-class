@@ -244,6 +244,11 @@ h1, h2, h3, p {
     margin-bottom: 4rem;
     line-height: 1.6rem;
 }
+@media (max-width: 992px){
+    #bio {
+        padding-bottom: 2rem;
+    }
+}
 
 /* SEP */
 
@@ -471,4 +476,8 @@ h1, h2, h3, p {
     display: inline-block;
     color: #4BCEEC;
     font-weight: 400;
+}
+
+#questions-section {
+    min-height: 730px;
 }
