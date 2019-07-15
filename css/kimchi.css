@@ -478,6 +478,39 @@ h1, h2, h3, p {
     font-weight: 400;
 }
 
+/* Questions */
+
 #questions-section {
-    min-height: 730px;
+    min-height: 800px;
+}
+
+#questions-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(11, 60px);
+}
+
+.question {
+
+}
+
+#q1 {
+    grid-area: 1 / 1 / 6 / 3;
+    background-color: aqua;
+}
+#q2 {
+    grid-area: 1 / 5 / 6 / 7;
+    background-color: aquamarine;;
+}
+#q3 {
+    grid-area: 4 / 3 / 9 / 5;
+    background-color: #858585;
+}
+#q4 {
+    grid-area: 7 / 1 / 12 / 3;
+    background-color: #FEB47B;
+}
+#q5 {
+    grid-area: 7 / 5 / 12 / 7;
+    background-color: steelblue;
 }
