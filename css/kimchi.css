@@ -13,6 +13,28 @@ h1, h2, h3, p {
     -webkit-font-smoothing: antialiased;
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
 /* #hero-section {
     background-image: linear-gradient(#FF7E5F, #FEB47B);
     height: 64vh;
@@ -210,6 +232,7 @@ h1, h2, h3, p {
     font-style: italic;
     font-weight: 600;
     letter-spacing: 0.025rem;
+    line-height: 1.5rem;
 }
 
 #bio {
@@ -218,6 +241,7 @@ h1, h2, h3, p {
     text-align: justify;
     padding: 0 1.5rem;
     margin-bottom: 4rem;
+    line-height: 1.6rem;
 }
 
 /* SEP */
@@ -261,6 +285,7 @@ h1, h2, h3, p {
     border: 3px solid #FEB47B;
     margin-bottom: 3rem;
     overflow: hidden;
+    background-color: #ffffff;
 }
 @media (max-width: 992px){
     #service-grid div:last-child {
@@ -317,6 +342,7 @@ h1, h2, h3, p {
     width: 100px;
     height: auto;
     margin: 2rem auto 1.5rem;
+    display: block;
 }
 
 .service-title{
@@ -333,6 +359,7 @@ h1, h2, h3, p {
     text-align: center;
     color: #809CA2;
     font-weight: 400;
+    line-height: 1.4rem;
 }
 
 /* TESTIMONIALS */
@@ -368,4 +395,15 @@ h1, h2, h3, p {
     height: 3px;
     background-color: #4BCEEC;
     margin-top: 2.5rem;
+}
+
+.glider-contain {
+    margin-top: 6rem;
+}
+
+.testimonial-card {
+    background-color: #858585;
+    height: 400px;
+    width: 300px;
+    margin: 3rem auto 0;
 }
