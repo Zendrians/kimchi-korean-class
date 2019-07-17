@@ -36,24 +36,27 @@ h1, h2, h3, p {
     }
   }
 
-/* #hero-section {
-    background-image: linear-gradient(#FF7E5F, #FEB47B);
-    height: 64vh;
-    clip-path: ellipse(50% 65% at 70% 50%);
-} */
+.delay-custom-1 {
+    animation-delay: 0.3s;
+}
+
+.delay-custom-2 {
+    animation-delay: 0.6s;
+}
 
 /* HERO SECTION */
 
 #hero-section {
     height: 29rem;
-    background-image: url(/bg/bg-1500.svg);
+    /* background-image: url(/bg/bg-1500.svg); */
+    background-image: url(../bg/bg-1500.svg);
     background-size: cover;
     background-position:  bottom;
     background-repeat: no-repeat;
 }
 @media (max-width: 576px){
     #hero-section {
-        background-image: url(/bg/mobile-bg.svg);
+        background-image: url(../bg/mobile-bg.svg);
        }
 }
 
@@ -304,7 +307,7 @@ h1, h2, h3, p {
 }
 
 
-/* Services */
+/* SEVICES */
 
 #services-section {
     min-height: 535px;
@@ -418,6 +421,11 @@ h1, h2, h3, p {
 
 #testimonials-section {
     min-height: 730px;
+}
+@media (max-width: 576px){
+    #testimonials-section {
+        min-height: 680px;
+    }
 }
 
 #testimonials-title-1 {
@@ -767,7 +775,7 @@ h1, h2, h3, p {
         margin: 3rem 15% 0;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 991px) {
     #lower-social-grid {
         margin: 3rem 5% 0;
     }
@@ -791,34 +799,5 @@ h1, h2, h3, p {
 .media-name {
     color: white;
     padding-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
-
-
-
-
-
-
-
-
-/* .container-adapted{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  @media (min-width: 768px) {
-    .container-adapted {
-      width: 98%;
-    }
-  }
-  @media (min-width: 992px) {
-    .container-adapted {
-      width: 95%;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container-adapted {
-      width: 90%;
-    }
-  } */
