@@ -66,11 +66,13 @@ h1, h2, h3, p {
 }
 
 #logo {
-    border-radius: 50px;
-    width: 120px;
+    /* border-radius: 40px; */
+    width: 150px;
     height: auto;
     justify-self: center;
     margin-top: 5.5rem;
+    /* background:rgba(255,255,255, 0.2); */
+    /* padding: 0.5rem; */
 }
 @media (max-width: 376px){
     #logo {
