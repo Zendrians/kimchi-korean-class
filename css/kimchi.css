@@ -489,6 +489,7 @@ h1, h2, h3, p {
     overflow: visible;
     position: relative;
     padding: 1px 1rem;
+    background-color: rgb(250, 249, 249);
     box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.05);
 }
 
