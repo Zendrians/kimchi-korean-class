@@ -98,26 +98,67 @@ body {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.question-title-box {
+.preguntas-title-box {
     background-image: linear-gradient(#4BCEEC, #14B1D5);
     height: 70px;
     width: 60%;
     border-radius: 0 20px 20px 0;
     display: grid;
-    grid-template-columns: 8fr 2fr;
+    grid-template-columns: 1fr 80px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.preguntas-text-wrapper {
+    display: grid;
     justify-content: center;
     align-content: center;
 }
 
-.question-title {
+.preguntas-title {
     color: white;
+    font-size: 1.8rem;
 }
+
+.preguntas-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.preguntas-content-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.preguntas-img-wrap {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.preguntas-img {
+    width: 180px;
+    height: auto;
+}
+
+.preguntas-content-wrap {
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.preguntas-content-text {
+    color: #5c5c5c;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+
 
 #cursos-title {
     color: white;
     margin-bottom: 30px;
     font-size: 1.8rem;
-    
 }
 
 #cursos-white-box{
@@ -129,9 +170,103 @@ body {
 
 .curso-card-body {
     width: 400px;
-    height: 300px;
     border-radius: 20px;
     margin-bottom: 1rem;
     background-color: #FAF9F9;
+    padding: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-title {
+    color: #16B0D4;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.nivel-span {
+    color: white;
+    background-color: #16B0D4;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.card-content-container {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: 35px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'dia hora'
+    'lugar cupos'
+    'precio estado'
+    'duracion boton'
+    'edad boton';
+}
+
+.dia {
+    grid-area: dia;
+}
+
+.hora {
+    grid-area: hora;
+}
+
+.lugar {
+    grid-area: lugar;
+}
+
+.cupos {
+    grid-area: cupos;
+}
+
+.precio {
+    grid-area: precio;
+}
+
+.estado {
+    grid-area: estado;
+}
+
+.duracion {
+    grid-area: duracion;
+}
+
+.edad {
+    grid-area: edad;
+}
+
+.boton {
+    grid-area: boton;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-category-div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.category-label {
+    color: #FE966B;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.category-item {
+    text-align: end;
+    padding-right: 10px;
+    color: #A2A2A2;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.curso-btn {
+    background-color: #16B0D4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px 
 }
