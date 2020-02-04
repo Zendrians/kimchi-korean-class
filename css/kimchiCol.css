@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(#FF7E5F, #FEB47B);
     min-height: 100vh;
+    padding-bottom: 2rem;
 }
 
 /* TOP BAR */
@@ -93,18 +94,36 @@ body {
     width: 100%;
     height: 1000px;
     background-color: white;
+    padding-top: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.question-title-box {
+    background-image: linear-gradient(#4BCEEC, #14B1D5);
+    height: 70px;
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.question-title {
+    color: white;
 }
 
 #cursos-title {
     color: white;
     margin-bottom: 30px;
     font-size: 1.8rem;
+    
 }
 
 #cursos-white-box{
     width: 400px;
 }
+
 
 /* CURSOS CARD */
 
