@@ -23,7 +23,18 @@ const cursosData = [
         duracion: 60,
         edad: '14+'
     },
-   
+    {
+        nivel: 2,
+        dia: 'Domingo',
+        hora: '11:00 am',
+        lugar: 'Ninano Cafe',
+        cuposMax: 15,
+        cuposNow: 9,
+        precio: '250.000',
+        estado: 'Abierto',
+        duracion: 60,
+        edad: '14+'
+    },
 ];
 
 const cursosWhiteBox = document.querySelector('#cursos-white-box');
