@@ -21,10 +21,11 @@ window.addEventListener('resize', () => {
     if (document.documentElement.clientWidth >= 1100) {
         preguntasBox.style.display = "block";
         cursosBox.style.display = "block";
-    } else  {
-        preguntasBox.style.display = "block";
-        cursosBox.style.display = "none";
-        preguntasBtn.classList.add('control-active');
-        cursosBtn.classList.remove('control-active');
-    }
+    } 
+    // else  {
+    //     preguntasBox.style.display = "block";
+    //     cursosBox.style.display = "none";
+    //     preguntasBtn.classList.add('control-active');
+    //     cursosBtn.classList.remove('control-active');
+    // }
 });
