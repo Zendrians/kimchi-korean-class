@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #top-bar  {
         grid-template-columns: 1fr;
         height: auto;
@@ -27,7 +27,7 @@ body {
     grid-template-columns: 100px 350px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #logo-div  {
         grid-template-columns: 1fr;
         padding-left: 0;
@@ -40,7 +40,7 @@ body {
     width: 100px;
     height: 100px;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #logo {
         align-self: center;
         justify-self: center;
@@ -52,7 +52,7 @@ body {
     padding-top: 25px;
     padding-left: 20px;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #titles-contianer  {
         padding-top: 0;
         padding-left: 0;
@@ -68,7 +68,7 @@ body {
     font-weight: 500;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #main-title {
         text-align: center;
     }
@@ -86,7 +86,7 @@ body {
     padding-top: 20px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #social-div {
         display: none;
     }
@@ -114,7 +114,7 @@ body {
 #controls-container {
    display: none;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #controls-container  {
         display: grid;
         justify-content: center;
@@ -131,7 +131,15 @@ body {
 
 .control-btn {
     color: white;
-    cursor: pointer; 
+    cursor: pointer;
+    text-align: center; 
+    padding: 5px 10px
+}
+
+.control-active {
+    color: #FE966B;
+    background-color: white;
+    border-radius: 15px;
 }
 
 /* MAIN SECTION */
@@ -141,7 +149,7 @@ body {
  grid-template-columns: 4fr 2fr;
  grid-column-gap: 2rem;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #main-wrapper {
         grid-template-columns: 1fr;
         grid-column-gap: 0;
@@ -165,7 +173,7 @@ body {
     margin-bottom: 30px;
     font-size: 1.8rem;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #preguntas-title {
         display: none;
     }
@@ -177,11 +185,11 @@ body {
     padding-top: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-@media (max-width: 992px){
+/* @media (max-width: 992px){
     #preguntas-white-box {
         display: none;
     }
-}
+} */
 
 .preguntas-div {
     margin-bottom: 30px;
@@ -204,7 +212,7 @@ body {
     border-radius: 20px 0 0 20px;
     grid-template-columns: 80px 1fr;
 }
-@media (max-width: 992px){
+@media (max-width: 1400px){
     .preguntas-title-box {
         width: 80%;
         height: 60px;
@@ -225,7 +233,7 @@ body {
     color: white;
     font-size: 1.8rem;
 }
-@media (max-width: 992px){
+@media (max-width: 700px){
     .preguntas-title {
         font-size: 1.4rem;
     }
@@ -236,7 +244,7 @@ body {
     width: 50px;
     margin: 0 auto;
 }
-@media (max-width: 992px){
+@media (max-width: 700px){
     .preguntas-icon {
         height: 40px;
         width: 40px;
@@ -252,7 +260,7 @@ body {
     grid-template-columns: 3fr 2fr;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1400px){
     .preguntas-content-container {
         grid-template-columns: 1fr;
     }
@@ -268,7 +276,7 @@ body {
     width: 180px;
     height: auto;
 }
-@media (max-width: 992px){
+@media (max-width: 1400px){
     .preguntas-img {
         display: none;
     }
@@ -299,34 +307,40 @@ body {
     text-align: justify;
     line-height: 20px;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     .preguntas-content-text {
        font-size: 0.95rem;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #cursos-box {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    #cursos-white-box {
         display: grid;
         justify-content: center;
         align-content: center;
     }
 }
 
+
 #cursos-title {
     color: white;
     margin-bottom: 30px;
     font-size: 1.8rem;
 }
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #cursos-title {
        display: none;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 1100px){
     #cursos-box {
-       /* display: none; */
+       display: none;
     }
 }
 
