@@ -22,10 +22,15 @@ window.addEventListener('resize', () => {
         preguntasBox.style.display = "block";
         cursosBox.style.display = "block";
     } 
-    // else  {
-    //     preguntasBox.style.display = "block";
-    //     cursosBox.style.display = "none";
-    //     preguntasBtn.classList.add('control-active');
-    //     cursosBtn.classList.remove('control-active');
-    // }
+    else  {
+        if (preguntasBox.style.display === "block") {
+            cursosBox.style.display = "none";
+            preguntasBtn.classList.add('control-active');
+            cursosBtn.classList.remove('control-active');
+        } else {
+            cursosBox.style.display = "display";
+            preguntasBtn.classList.remove('control-active');
+            cursosBtn.classList.add('control-active');
+        };
+    }
 });

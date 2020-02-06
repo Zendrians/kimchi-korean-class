@@ -7,7 +7,7 @@ const cursosData = [
         cuposMax: 15,
         cuposNow: 9,
         precio: '250.000',
-        estado: 'Abierto',
+        estado: true,
         duracion: 90,
         edad: '14+'
     },
@@ -15,11 +15,11 @@ const cursosData = [
         nivel: 2,
         dia: 'Domingo',
         hora: '11:00 am',
-        lugar: 'Ninano Cafe',
+        lugar: 'Ninano Studio',
         cuposMax: 15,
         cuposNow: 9,
         precio: '250.000',
-        estado: 'Abierto',
+        estado: false,
         duracion: 60,
         edad: '14+'
     },
@@ -31,7 +31,7 @@ const cursosData = [
         cuposMax: 15,
         cuposNow: 9,
         precio: '250.000',
-        estado: 'Abierto',
+        estado: true,
         duracion: 60,
         edad: '14+'
     },
@@ -77,7 +77,7 @@ function renderCursos (arr) {
                                 <div class="estado centrador-v">
                                     <div class="inner-category-div">
                                         <h5 class="category-label">Estado:</h5>
-                                        <h5 class="category-item">${curso.estado}</h5>
+                                        <h5 class="category-item">${curso.estado? 'Abierto': 'Cerrado'}</h5>
                                     </div>
                                 </div>
                                 <div class="duracion centrador-v">
@@ -93,7 +93,7 @@ function renderCursos (arr) {
                                     </div>
                                 </div>
                                 <div class="boton">
-                                    <a><div class='curso-btn'>Inscribirme!</div></a>
+                                ${curso.estado? "<a><div class='curso-btn'>Inscribirme!</div></a>" : "<a><div class='curso-btn cerrado-btn'>Cerrado</div></a>" }
                                 </div>
                             </div>
                         </div>`;
