@@ -238,7 +238,14 @@ body {
     .preguntas-title {
         font-size: 1.4rem;
     }
+    .long-title {
+        font-size: 1.2rem;
+        line-height: 18px;
+        text-align: center;
+    }
 }
+
+
 
 .preguntas-icon {
     height: 50px;
