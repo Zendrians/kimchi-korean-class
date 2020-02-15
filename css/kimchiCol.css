@@ -302,6 +302,11 @@ body {
     justify-content: center;
     align-content: center;
 }
+@media (max-width: 500px){
+    .preguntas-img-wrap {
+        padding: 0 20px;
+    }
+}
 
 .preguntas-img {
     width: 180px;
@@ -516,6 +521,17 @@ body {
 
 .cerrado-btn {
     background-color: rgb(200, 78, 29);
+}
+
+.location-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.no-bot-mar {
+    margin-bottom: 0;
 }
 
 /* LOWER SOCIAL MEDIA */
