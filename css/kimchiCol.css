@@ -308,15 +308,30 @@ body {
     }
 }
 
+.desktop-icon-background {
+    background-color: #dfdfdf;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .preguntas-img {
     width: 180px;
+    height: auto;
+}
+.icon-img {
+    width: 130px;
     height: auto;
 }
 @media (max-width: 1400px){
     .preguntas-img {
         display: none;
     }
+    .desktop-icon-background {
+        display: none;
+    }
 }
+
+
 
 .preguntas-content-wrap {
     padding-top: 20px;
@@ -380,6 +395,25 @@ body {
     }
 }
 
+.location-logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.no-bot-mar {
+    margin-bottom: 0;
+}
+
+.QR-code {
+    width: 200px;
+    height: auto;
+}
+
+.left-padding {
+    padding-left: 20px;
+}
 
 
 /* CURSOS CARD */
@@ -523,16 +557,6 @@ body {
     background-color: rgb(200, 78, 29);
 }
 
-.location-logo {
-    display: block;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.no-bot-mar {
-    margin-bottom: 0;
-}
 
 /* LOWER SOCIAL MEDIA */
 
